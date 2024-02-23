@@ -69,6 +69,5 @@ $description[**$getServerVar[prefix]help** - This!
 **$getServerVar[prefix]shop** - Shop. (more command for buying, eating, etc in here!)]
 
 $color[RANDOM]
-$footer[SOURCE CODE FROM Jastin Ch in Youtube || https://youtube.com/c/JastinCh || Full Made By JastinCh!]
 $addTimestamp`
 })

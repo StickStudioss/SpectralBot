@@ -34,6 +34,5 @@ House🏡
 **$getServerVar[prefix]buy-house** = $2.000.000
 ]
 $color[RANDOM]
-$footer[SOURCE CODE FROM Jastin Ch in Youtube || https://youtube.com/c/JastinCh || Full Made By JastinCh!]
 $addTimestamp`
 }

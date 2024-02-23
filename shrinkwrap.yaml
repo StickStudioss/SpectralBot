@@ -1,4 +1,5 @@
 dependencies:
+  dbd: 0.0.2
   dbd.js: 2.2.6
   jastinch-api-wrapper: 0.0.11
   scramb: 2.0.5
@@ -361,6 +362,10 @@ packages:
       node: '>=12.11.0'
     resolution:
       integrity: sha512-RUksMAtS7nPUKLhI40qoaxtUD4fCbbzOO3EUeY7wwmofmnWJnW/emQl2iXusZXG1hf9Tzn1AC25r/5jmHhPvQA==
+  /dbd/0.0.2:
+    dev: false
+    resolution:
+      integrity: sha512-aCX2O93cDfzMMorNbMAurNR42GlxSwmbf3u/ekXJ6K0Cqx0KpKbx0WwVIZPUz2DAzLB4ARA/DBtM4Mz7HwlmRg==
   /debug/3.2.7:
     dependencies:
       ms: 2.1.3
@@ -1260,6 +1265,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
-  dbd.js: ^2.2.5
+  dbd: 0.0.2
+  dbd.js: ^2.2.6
   jastinch-api-wrapper: ^0.0.11
   scramb: ^2.0.0
