@@ -8,6 +8,6 @@ $$getGlobalUserVar[cash]
 
 💳 **| Bank**
 $$getGlobalUserVar[bank]]
-$color[$random[0;999999]]
+$color[0000FF]
 $addTimestamp`,
 };

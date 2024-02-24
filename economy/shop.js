@@ -19,7 +19,7 @@ Medicine💊
 **> Item :**
 
 Fishing equipment🎣
-**$getServerVar[prefix]buy-fishrod** = $75
+**$getServerVar[prefix]buy-fishrod** = $7500
 
 Laptop🖱
 **$getServerVar[prefix]buy-laptop** = $13.000
