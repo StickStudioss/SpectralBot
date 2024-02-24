@@ -1,8 +1,8 @@
 module.exports = {
-  name: "message",
-  aliases: ["message"],
+  name: "poll",
   code: `
   $message
+  $addReactions[👍;👎]
   $deletecommand
   `
 }
