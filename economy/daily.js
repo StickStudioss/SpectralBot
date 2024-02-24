@@ -4,7 +4,7 @@ module.exports = {
   code: `
 $title[Daily Salary.]
 $thumbnail[$userAvatar[$authorID]]
-$description[You have received **$getServerVar[daily]** of your daily allowance! The money is already in cash!]
+$description[You have received **$getServerVar[daily]** of your daily allowance! Come back tomorrow to claim it again.]
 $color[$random[0;999999]]
 $addTimestamp
 
