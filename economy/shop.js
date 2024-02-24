@@ -1,7 +1,7 @@
 module.exports = {
   
   name: "shop",
-  code: `$author[Shop.;$userAvatar[797794333759766528]] 
+  code: `$author[Shop.;$userAvatar[912034601210347540]] 
 $description[**> Necessity:**
 
 Pizza🍕
