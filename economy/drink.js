@@ -2,7 +2,7 @@ module.exports = {
   
   name: "drink",
   code: `
-$description[You drunk something special]
+$description[You ate a pizza, nothing special happend]
 $setGlobalUserVar[drink;$sub[$getGlobalUserVar[dink];1]]
 $setGlobalUserVar[health;$sum[$getGlobalUserVar[health];3]]
 $setGlobalUserVar[hungry;$sum[$getGlobalUserVar[hungry];2]]
