@@ -54,7 +54,7 @@ bot.command({
 name: "help",
 code: `$title[$userTag[$clientID] HELP MENU]
 
-$description[**$getServerVar[prefix]help** - This!
+$description[**$getServerVar[prefix]help** - Get to see what commands you can use (this)!
 **$getServerVar[prefix]balance** - Your balance.
 **$getServerVar[prefix]inven** - Your Inventory.
 **$getServerVar[prefix]dep** - Deposit cash to bank.
