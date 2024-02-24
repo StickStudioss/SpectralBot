@@ -1,7 +1,7 @@
 module.exports = {
   name: "rob",
   code: `
-$cooldown[60s;WOW THERE, NOT SO FAST, THERE IS 1 MINUTE COOLDOWN YK? (%time% left)]
+$cooldown[60s;Fucking moron. Greedy fuck. There's a cooldown yk? (%time% left)]
 $if[$random[1;100]<=25]
 $description[Bro really failed. Skill issue lol]
 $color[FF0000]
