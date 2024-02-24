@@ -1,8 +1,8 @@
 module.exports = {
   
   name: "fish",
-  code: `$description[You fish at $randomText[Bath;River;Pond;Swimming Pool;Sea], and you get **$random[0;8] Kg Fish.** \`$getServerVar[prefix]sellfish\` to sell 5Kg of fish for $250]
-$color[$random[0;999999]]
+  code: `$description[You fished at a $randomText[**river**;**pond**;**swimming pool**;**sea**;**ocean**], and you caught **$random[0;8] Kg Fish.** \`$getServerVar[prefix]sellfish\` to sell 5Kg of fish for $650]
+$color[FFA07A]
 $setGlobalUserVar[fish;$sum[$getGlobalUserVar[fish];$random[0;8]]]
 $setGlobalUserVar[health;$sub[$getGlobalUserVar[health];$random[0;2]]]
 $setGlobalUserVar[hungry;$sub[$getGlobalUserVar[hungry];$random[0;4]]]

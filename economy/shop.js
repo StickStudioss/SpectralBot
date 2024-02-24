@@ -2,7 +2,7 @@ module.exports = {
   
   name: "shop",
   code: `$author[Shop.;$userAvatar[912034601210347540]] 
-$description[**> Necessity:**
+$description[**> Necessities:**
 
 Pizza🍕
 **$getServerVar[prefix]buy-pizza** = $95
@@ -16,10 +16,10 @@ Medicine💊
 **$getServerVar[prefix]buy-medic** = $125
 **$getServerVar[prefix]take-medicine** = When you are sick, use it and gain: +9 Health, -4 Hungry, -4 Thirsty.
 
-**> Item :**
+**> Items:**
 
 Fishing equipment🎣
-**$getServerVar[prefix]buy-fishrod** = $7500
+**$getServerVar[prefix]buy-fishrod** = $7.500
 
 Laptop🖱
 **$getServerVar[prefix]buy-laptop** = $13.000
@@ -27,11 +27,14 @@ Laptop🖱
 Car🚗
 **$getServerVar[prefix]buy-car** = $65.000
 
+
 Fuel⛽
 **$getServerVar[prefix]buy-fuel** = $2500/1L
 
+
 House🏡
 **$getServerVar[prefix]buy-house** = $2.000.000
+Houses are to flex how rich you are
 ]
 $color[0083df]
 $addTimestamp`
