@@ -5,5 +5,5 @@ module.exports = {
 $description[**@$username** successfully bought a **pizza** for **95**. Remaining cash: $$sub[$getGlobalUserVar[cash]]]
 $setGlobalUserVar[cash;$sub[$getGlobalUserVar[cash];95]]
 $setGlobalUserVar[pizza;$sum[$getGlobalUserVar[pizza];1]]
-$onlyIf[$getGlobalUserVar[cash]>=95;Not enough cash!]`
+$onlyIf[$getGlobalUserVar[cash]>=95;Not enough cash! You need $95 to buy a fishing rod, but you only have $$getGlobalUserVar[cash].]`
 }

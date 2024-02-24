@@ -7,6 +7,6 @@ $setGlobalUserVar[bank;$sum[$getGlobalUserVar[bank];$message]]
 $description[**Success deposit $$message Cash to bank!**]
 $color[d28108]
 $onlyIf[$message<=$getGlobalUserVar[cash];**The deposit should not exceed the money you have!**]
-$onlyIf[$message>=1;**You can only deposit more than $1.**]
+$onlyIf[$message>=100;The deposit minimun is 100]
 $argsCheck[>1;Use: \`$getServerVar[prefix]dep <Ammount>\`]`
 }
