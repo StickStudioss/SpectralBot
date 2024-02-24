@@ -2,9 +2,9 @@ module.exports = {
   
   name: "work",
   code: `
-$author[WORK!;https://cdn.discordapp.com/attachments/798714067421626427/798862373967757383/31b2d70f4144bf566a78bdf4d25d4573a7aa0c58_hq.gif]
+$author[You have worked]
 $thumbnail[$userAvatar[$authorID]]
-$description[You work as $randomText[Game Developer;YouTuber;Doctor;Musician;Editor;Engineer;Pro Gamer;Farmer;Streamer], And you get **$$random[45;350]** Cash]
+$description[You work as $randomText[Game Developer;YouTuber;Doctor;Musician;Editor;Engineer;Farmer;Streamer], and earned **$$random[45;350]** Cash]
 $color[RANDOM]
 $addTimestamp
 

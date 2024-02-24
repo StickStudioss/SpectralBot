@@ -5,10 +5,10 @@ module.exports = {
   $setGlobalUserVar[health;$sub[$getGlobalUserVar[health];$random[0;4]]]
   $setGlobalUserVar[hungry;$sub[$getGlobalUserVar[hungry];$random[0;4]]]
   $setGlobalUserVar[thirsty;$sub[$getGlobalUserVar[thirsty];$random[0;5]]]
-  $title[**$username** Get:]
-  $color[$random[10000;999999]]
+  $title[**$username** got:]
+  $color[#7a1284]
   $description[
-    $replaceText[$replaceText[$randomText[none;1;1;1;1;1;2];none;0 Diamond💎!];1;1 Diamond💎!;2;2 Diamonds💎!]
+    $replaceText[$replaceText[$randomText[none;1;1;1;1;1;2];none;0 Diamond 💎];1;1 Diamond 💎;2;2 Diamonds 💎]
     Use \`$getServerVar[prefix]selldiamond\` to sell 1 diamond for $100]
   $globalCooldown[2s;**⏰ Wait for %time% to mining again!**]
   $onlyIf[$getGlobalUserVar[hungry]>=10;Your hunger rate is at 10%, and you should eat first! You can buy the food.]

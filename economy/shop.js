@@ -6,15 +6,15 @@ $description[**> Necessity:**
 
 Pizza🍕
 **$getServerVar[prefix]buy-pizza** = $95
-**$getServerVar[prefix]eat-pizza** = If you are hungry, eat it. +2 Health, -6 Hungry, -4 Thirsty.
+**$getServerVar[prefix]eat-pizza** = If you are hungry, eat it and gain: +2 Health, -6 Hungry, -4 Thirsty.
 
 Drink🥛
-**$getServerVar[prefix]buy-drink** = $45
-**$getServerVar[prefix]drink** = If you are thirsty, drink it. +3 Health, -2 Hungry, -5 Thirsty.
+**$getServerVar[prefix]buy-drink** = 200
+**$getServerVar[prefix]drink** = If you are thirsty, drink it and gain: +3 Health, -2 Hungry, -5 Thirsty.
 
 Medicine💊
 **$getServerVar[prefix]buy-medic** = $125
-**$getServerVar[prefix]take-medicine** = When you are sick, wear it. +9 Health, -4 Hungry, -4 Thirsty.
+**$getServerVar[prefix]take-medicine** = When you are sick, use it and gain: +9 Health, -4 Hungry, -4 Thirsty.
 
 **> Item :**
 
@@ -33,6 +33,6 @@ Fuel⛽
 House🏡
 **$getServerVar[prefix]buy-house** = $2.000.000
 ]
-$color[RANDOM]
+$color[0083df]
 $addTimestamp`
 }
