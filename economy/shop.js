@@ -24,7 +24,7 @@ Fishing equipment🎣
 
 Laptop 💻
 **$getServerVar[prefix]buy-laptop** = $13.000
-~~no purpose yet~~
+By owning this, you will be able to rob the heist.
 
 Car 🚗
 **$getServerVar[prefix]buy-car** = $65.000
