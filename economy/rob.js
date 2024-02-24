@@ -2,7 +2,7 @@ module.exports = {
   name: "rob",
   code: `
 $if[$random[1;100]<=25]
-$description[You attempted to rob $username[$mentioned[1]] but got away with nothing!]
+$description[Bro really failed. Skill issue lol]
 $color[FF0000]
 $else
 $if[$random[1;100]<=81]
@@ -24,7 +24,7 @@ $color[0000FF]
 $endif
 $endif
 $endif
-$onlyIf[$mentioned[1]!=$authorID;Bro really tried robbing yourself 💀]
+$onlyIf[$mentioned[1]!=$authorID;No way you actually attempted to rob yourself 💀]
 $onlyIf[$mentioned[1]!=;You need to mention someone to rob!]
 $addTimestamp
 `
